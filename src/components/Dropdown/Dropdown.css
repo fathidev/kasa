@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 768px) {
   .description-dropdown {
-    padding: 23.02px 6.91px 1.3px 11.51px;
+    padding: 23.02px 6.91px 10px 11.51px;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 400;
