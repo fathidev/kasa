@@ -21,7 +21,7 @@
   border-radius: 10px;
 }
 .card_overlay {
-  background-image: linear-gradient(45deg, black, transparent);
+  background: linear-gradient(180deg, #ffffff00 0%, #00000080 100%);
 }
 
 img.card-vignette {
@@ -45,7 +45,7 @@ img.card-vignette {
   /* align-items: flex-end; */
 
   color: #ffffff;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 h2 {
