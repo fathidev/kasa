@@ -58,10 +58,6 @@ h2 {
   font-size: 18px;
 }
 
-/* .card-link {
-  position: relative;
-} */
-
 @media (max-width: 768px) {
   .cards-container {
     background-color: white;

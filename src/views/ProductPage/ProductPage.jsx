@@ -29,7 +29,7 @@ function ProductPage() {
     location,
   } = product;
   const stars = [1, 2, 3, 4, 5].map((n) => (
-    <Star key={n} selected={n <= rating} />
+    <Star key={n} selected={n <= Number(rating)} />
   ));
   const equipementsLogement = equipments.map((equipment, index) => {
     return <li key={index}>{equipment}</li>;
