@@ -1,8 +1,9 @@
 import { Navigate, useParams } from "react-router-dom";
 // components
-import Dropdown from "../../components/Dropdown/Dropdown";
+import Collapse from "../../components/Collapse/Collapse";
 import Products from "../../data/records.json";
-import Carrousel from "../../components/Caroussel/Caroussel";
+// import Carrousel from "../../components/Gallery/Gallery";
+import Gallery from "../../components/Gallery/Gallery";
 import { Star } from "../../components/Star/Star";
 import Tags from "../../components/Tags/Tags";
 import Contact from "../../components/Contact/Contact";
@@ -39,7 +40,7 @@ function ProductPage() {
   return (
     <>
       <div className="product_page">
-        <Carrousel pictures={pictures} />
+        <Gallery pictures={pictures} />
         <div className="product_content">
           <div className="product_informations">
             <h1 className="product_title">{title}</h1>
@@ -56,12 +57,12 @@ function ProductPage() {
           </div>
         </div>
         <div className="product_equipments">
-          <Dropdown
+          <Collapse
             className="description"
             titre="Description"
             description={description}
           />
-          <Dropdown
+          <Collapse
             className="equipment"
             titre="Équipements"
             description={equipementsLogement}

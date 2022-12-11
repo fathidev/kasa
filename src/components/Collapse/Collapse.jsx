@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./Dropdown.css";
+import "./Collapse.css";
 import arrowDropdown from "../../assets/arrowDropdown.svg";
 
-function Dropdown({ titre, description }) {
+function Collapse({ titre, description }) {
   const [ouvert, setOuvert] = useState(false);
 
   return (
@@ -24,4 +24,4 @@ function Dropdown({ titre, description }) {
   );
 }
 
-export default Dropdown;
+export default Collapse;

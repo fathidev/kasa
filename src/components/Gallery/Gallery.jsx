@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import arrowLeft from "../../assets/arrowLeft.svg";
 import arrowRight from "../../assets/arrowRight.svg";
-import "./Caroussel.css";
+import "./Gallery.css";
 
-function Caroussel({ pictures }) {
+function Gallery({ pictures }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const length = pictures.length;
   // fonctions pour changer de slide avec les flèches
@@ -48,4 +48,4 @@ function Caroussel({ pictures }) {
   );
 }
 
-export default Caroussel;
+export default Gallery;

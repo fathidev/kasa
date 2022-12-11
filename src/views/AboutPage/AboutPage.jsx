@@ -1,5 +1,5 @@
 import "./AboutPage.css";
-import Dropdown from "../../components/Dropdown/Dropdown";
+import Collapse from "../../components/Collapse/Collapse";
 import bannerAbout from "../../assets/bannerAbout.png";
 import Banner from "../../components/Banner/Banner";
 
@@ -9,11 +9,11 @@ function AboutPage({ data }) {
       <Banner className="about_banner" image={bannerAbout} />
       <div className="about_dropdowns">
         {data.map((item) => (
-          <Dropdown
+          <Collapse
             titre={item.title}
             key={item.id}
             description={item.content}
-          ></Dropdown>
+          ></Collapse>
         ))}
       </div>
     </div>
