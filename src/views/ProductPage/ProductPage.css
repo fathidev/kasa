@@ -116,7 +116,7 @@ ol {
   .product_equipments {
     flex-direction: column;
   }
-  .product_equipments > .dropdown {
+  .product_equipments > .collapse {
     width: 100%;
   }
 
