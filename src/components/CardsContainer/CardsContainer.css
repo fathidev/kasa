@@ -58,7 +58,7 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .cards-container {
+  .cards_container {
     background-color: white;
     padding: 0;
     margin-top: 22px;
