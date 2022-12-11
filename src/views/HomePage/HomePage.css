@@ -1,31 +1,28 @@
 .banner {
-  /* position: absolute; */
   height: 223px;
-  /* left: 100px; */
-  /* top: 171px; */
   background-image: url("../../assets/banner.png");
   background-repeat: no-repeat;
   width: 100%;
-
   mix-blend-mode: darken;
   opacity: 0.9;
 }
 
 .homepage {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  /* margin-top: 80px;
+  margin-bottom: 80px;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 100px; */
+  margin: 80px 100px;
 }
+/* .homepage-title {
+  color: white;
+} */
 
 @media screen and (max-width: 768px) {
   .homepage {
-    margin-top: 16px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 16px 20px 0 20px;
+    /* margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px; */
   }
-}
-
-.homepage-title {
-  color: white;
 }

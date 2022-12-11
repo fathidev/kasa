@@ -21,7 +21,7 @@
   margin: 5px 10px;
   font-size: 18px;
   font-weight: 500;
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
 }
 
 .fleche-dropdown {
@@ -68,7 +68,7 @@
     height: 29.93px;
   }
   .titre-dropdown {
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-size: 13px;
     font-weight: 500;
     text-align: left;

@@ -1,12 +1,12 @@
 import "./AboutPage.css";
 import Dropdown from "../../components/Dropdown/Dropdown";
-import banner from "../../assets/banner_for_about.png";
+import bannerAbout from "../../assets/bannerAbout.png";
 import Banner from "../../components/Banner/Banner";
 
 function AboutPage({ data }) {
   return (
     <div className="about-page">
-      <Banner className="banner-about" image={banner} />
+      <Banner className="banner-about" image={bannerAbout} />
       <div className="container_dropdown">
         {data.map((item) => (
           <Dropdown

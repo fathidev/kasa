@@ -30,6 +30,7 @@ function ProductPage() {
   } = product;
   const stars = [1, 2, 3, 4, 5].map((n) => (
     <Star key={n} selected={n <= Number(rating)} />
+    // compare n to rating and cast rating to number
   ));
   const equipementsLogement = equipments.map((equipment, index) => {
     return <li key={index}>{equipment}</li>;

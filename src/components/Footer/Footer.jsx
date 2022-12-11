@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../assets/bannerFooter.png";
+import logoFooter from "../../assets/logoFooter.png";
 
 function Footer() {
   // récupération de l'année en cours
@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div className="footer-logo">
-          <img src={logo} alt="logo" />
+          <img src={logoFooter} alt="Logo Kasa Footer" />
         </div>
         <div className="footer-rights">
           <p>&copy; {actualYear} Kasa. All rights reserved</p>

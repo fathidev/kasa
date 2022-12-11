@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
-import arrowForRotate from "../../assets/arrowForRotate.svg";
+import arrowDropdown from "../../assets/arrowDropdown.svg";
+
 function Dropdown({ titre, description }) {
   const [ouvert, setOuvert] = useState(false);
 
@@ -12,7 +13,7 @@ function Dropdown({ titre, description }) {
           className={`fleche-dropdown ${ouvert}`}
           onClick={() => setOuvert(!ouvert)}
         >
-          <img src={arrowForRotate} alt="Ouvrir cette liste déroulante" />
+          <img src={arrowDropdown} alt="Ouvrir cette liste déroulante" />
         </span>
       </div>
       {

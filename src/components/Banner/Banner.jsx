@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 
-const Banner = ({ image, text}) => {
+const Banner = ({ image, text }) => {
   return (
     <div className="banner">
       <img src={image} alt="banner" className="banner__img" />
