@@ -5,9 +5,9 @@ import Banner from "../../components/Banner/Banner";
 
 function AboutPage({ data }) {
   return (
-    <div className="about-page">
-      <Banner className="banner-about" image={bannerAbout} />
-      <div className="container_dropdown">
+    <div className="about_page">
+      <Banner className="about_banner" image={bannerAbout} />
+      <div className="about_dropdowns">
         {data.map((item) => (
           <Dropdown
             titre={item.title}

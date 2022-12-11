@@ -9,7 +9,9 @@ function Error404Page() {
         <span className="description_404">
           Oups, la page que vous demandez n'existe pas!
         </span>
-        <NavLink className="link_404" to="/">Retourner à la page d'accueil</NavLink>
+        <NavLink className="link_404" to="/">
+          Retourner à la page d'accueil
+        </NavLink>
       </div>
     </>
   );

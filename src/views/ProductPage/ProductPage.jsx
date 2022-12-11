@@ -55,7 +55,7 @@ function ProductPage() {
             <div className="product_stars">{stars}</div>
           </div>
         </div>
-        <div className="description-equipements">
+        <div className="product_equipments">
           <Dropdown
             className="description"
             titre="Description"
