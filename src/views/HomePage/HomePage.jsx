@@ -3,12 +3,10 @@ import "./HomePage.css";
 import Banner from "../../components/Banner/Banner";
 import bannerHome from "../../assets/banner.png";
 function HomePage() {
+  const slogan = "Chez vous, partout et ailleurs";
   return (
     <main className="homepage">
-      <Banner
-        image={bannerHome}
-        text="Chez vous, partout et ailleurs"
-      />
+      <Banner image={bannerHome} text={slogan} />
       <CardsContainer />
     </main>
   );
