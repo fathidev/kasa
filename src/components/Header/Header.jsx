@@ -1,4 +1,4 @@
-import logoHeader from "../../assets/logoHea🏚.png";
+import logoHeader from "../../assets/logoHeader.png";
 import { NavLink } from "react-router-dom";
 
 import "./Header.css";
@@ -6,13 +6,13 @@ function Header() {
   return (
     <nav className="nav">
       <NavLink to="/">
-        <img src={logoHeader} alt="Logo Kasa Header" className="nav__img" />
+        <img src={logoHeader} alt="Logo Kasa Header" className="nav_img" />
       </NavLink>
       {/* menu de navigation*/}
       <div>
         <NavLink
           className={({ isActive }) =>
-            isActive ? "nav__link active" : "nav__link"
+            isActive ? "nav_link active" : "nav_link"
           }
           to="/"
         >
@@ -20,7 +20,7 @@ function Header() {
         </NavLink>
         <NavLink
           className={({ isActive }) =>
-            isActive ? "nav__link active" : "nav__link"
+            isActive ? "nav_link active" : "nav_link"
           }
           to="/about"
         >

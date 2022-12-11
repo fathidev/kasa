@@ -7,10 +7,10 @@ function Dropdown({ titre, description }) {
 
   return (
     <div className="dropdown" id={`dropdown-${titre}`}>
-      <div className="header-dropdown">
-        <div className="titre-dropdown">{titre}</div>
+      <div className="dropdown_header">
+        <div className="dropdown_title">{titre}</div>
         <span
-          className={`fleche-dropdown ${ouvert}`}
+          className={`dropdown_arrow ${ouvert}`}
           onClick={() => setOuvert(!ouvert)}
         >
           <img src={arrowDropdown} alt="Ouvrir cette liste déroulante" />
@@ -18,7 +18,7 @@ function Dropdown({ titre, description }) {
       </div>
       {
         /* Si le dropdown est à TRUE alors il affichera la description */
-        ouvert && <div className="description-dropdown">{description}</div>
+        ouvert && <div className="dropdown_description">{description}</div>
       }
     </div>
   );

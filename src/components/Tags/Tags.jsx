@@ -3,7 +3,7 @@ import "./Tags.css";
 const Tags = ({ getTag }) => {
   return (
     <div className="tag">
-      <p className="tag__text">{getTag}</p>
+      <p className="tag_text">{getTag}</p>
     </div>
   );
 };

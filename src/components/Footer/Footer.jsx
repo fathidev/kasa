@@ -6,11 +6,11 @@ function Footer() {
   const actualYear = new Date().getFullYear();
   return (
     <footer>
-      <div className="footer-container">
-        <div className="footer-logo">
+      <div className="footer_container">
+        <div className="footer_logo">
           <img src={logoFooter} alt="Logo Kasa Footer" />
         </div>
-        <div className="footer-rights">
+        <div className="footer_rights">
           <p>&copy; {actualYear} Kasa. All rights reserved</p>
         </div>
       </div>
