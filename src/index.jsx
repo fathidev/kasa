@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-
 import "./index.css";
 // pages
 import HomePage from "./views/HomePage/HomePage";
@@ -11,9 +10,10 @@ import Error404Page from "./views/Error404Page/Error404Page";
 // components
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // data for about page
-import aboutData from "../src/data/about.json";
+import aboutData from "./data/about.json";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,7 +25,6 @@ root.render(
         <Route path="products/:id" element={<ProductPage />}></Route>
         <Route path="/about" element={<AboutPage data={aboutData} />}></Route>
         <Route path="*" element={<Error404Page />}></Route>
-        <Route path="/404" element={<Error404Page />}></Route>
       </Routes>
       <Footer />
     </Router>

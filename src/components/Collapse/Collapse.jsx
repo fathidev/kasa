@@ -4,6 +4,11 @@ import arrowCollapse from "../../assets/arrowCollapse.svg";
 
 function Collapse({ titre, description }) {
   const [ouvert, setOuvert] = useState(false);
+  // initialisation du state à false
+  // si au click on a true, on passe à false, sinon on passe à true
+  const clickArrow = () => {
+    setOuvert(ouvert === true ? false : true);
+  };
 
   return (
     <div className="collapse" id={`collapse-${titre}`}>
@@ -11,7 +16,7 @@ function Collapse({ titre, description }) {
         <div className="collapse_title">{titre}</div>
         <span
           className={`collapse_arrow ${ouvert}`}
-          onClick={() => setOuvert(!ouvert)}
+          onClick={clickArrow}
         >
           <img src={arrowCollapse} alt="Ouvrir cette liste déroulante" />
         </span>
