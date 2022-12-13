@@ -63,6 +63,10 @@
     letter-spacing: 0em;
     text-align: left;
   }
+
+  .collapse_header {
+    height: 29.93px;
+  }
   .collapse_arrow {
     height: 29.93px;
   }
