@@ -6,19 +6,17 @@ function CardsContainer() {
     <div className="cards_container">
       {/* generation des cards */}
       {Records.map((record) => {
+      // destructuring de record
+        const { cover, title, id } = record;
         return (
-          <div className="card" key={record.id}>
+          <div className="card" key={id}>
             <div className="card_image">
-              <Link to={"products/" + record.id} className="card_link">
+              <Link to={"products/" + id} className="card_link">
                 <div className="card_overlay">
-                  <img
-                    className="card_vignette"
-                    src={record.cover}
-                    alt={record.title}
-                  />
+                  <img className="card_vignette" src={cover} alt={title} />
                 </div>
                 <div className="card_title">
-                  <h2>{record.title}</h2>
+                  <h2>{title}</h2>
                 </div>
               </Link>
             </div>
