@@ -59,6 +59,10 @@
     width: 11.67px;
   }
 
+  .gallery_count {
+    font-size: 15px;
+  }
+
   .gallery_image > img {
     height: 255px;
     border-radius: 10px;
