@@ -1,4 +1,4 @@
-.carouselle_image > img {
+.gallery_image > img {
   width: 100%;
   height: 25rem;
   object-fit: cover;
@@ -6,7 +6,7 @@
   /* mix-blend-mode: normal; */
 }
 /* message when no image exist */
-.carouselle_displayNoImage {
+.gallery_displayNoImage {
   width: 100%;
   height: 25rem;
   background-color: #f7f7f7;
@@ -21,11 +21,11 @@
   margin-bottom: 30px;
 }
 
-.carouselle_image {
+.gallery_image {
   position: relative;
 }
 /* counter */
-.carouselle_count {
+.gallery_count {
   font-size: 18px;
   font-family: montserrat;
   font-weight: 500;
@@ -36,33 +36,31 @@
   position: absolute;
 }
 /* arrows */
-.carouselle_arrowLeft {
+.gallery_arrowLeft {
   position: absolute;
   left: 13px;
   top: 44%;
   cursor: pointer;
 }
-.carouselle_arrowRight {
+.gallery_arrowRight {
   position: absolute;
   right: 13px;
   top: 44%;
   cursor: pointer;
 }
-.carouselle_arrowLeft img,
-.carouselle_arrowRight img {
+.gallery_arrowLeft img,
+.gallery_arrowRight img {
   width: 45px;
 }
 
 @media screen and (max-width: 768px) {
-  .carouselle_arrowLeft img,
-  .carouselle_arrowRight img {
+  .gallery_arrowLeft img,
+  .gallery_arrowRight img {
     width: 11.67px;
   }
 
-  .carouselle_image > img {
+  .gallery_image > img {
     height: 255px;
     border-radius: 10px;
   }
 }
-
-/*  */

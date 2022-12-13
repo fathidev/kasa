@@ -16,27 +16,25 @@ function Gallery({ pictures }) {
   };
   // si pas de slide, on affiche un message
   if (!pictures || length === 0) {
-    return (
-      <div className="carouselle_displayNoImage">Image non disponible</div>
-    );
+    return <div className="gallery_displayNoImage">Image non disponible</div>;
   }
   return (
     <>
       {pictures.map(
         (picture, index) =>
           currentSlide === index && (
-            <div key={picture} className="carouselle_image">
-              <span className="carouselle_count">
+            <div key={picture} className="gallery_image">
+              <span className="gallery_count">
                 {index + 1}/{length}
               </span>
               <img src={picture} alt="appartement" />
               {length > 1 ? (
                 // si il y a plus d'une image, on affiche les boutons, sinon rien
                 <>
-                  <div className="carouselle_arrowLeft" onClick={prevSlide}>
+                  <div className="gallery_arrowLeft" onClick={prevSlide}>
                     <img src={arrowLeft} alt="arrow preview" />
                   </div>
-                  <div className="carouselle_arrowRight" onClick={nextSlide}>
+                  <div className="gallery_arrowRight" onClick={nextSlide}>
                     <img src={arrowRight} alt="arrow next" />
                   </div>
                 </>
