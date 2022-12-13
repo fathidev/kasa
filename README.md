@@ -1,5 +1,10 @@
 ![Cover](capsKasa.png)
 
+
+
+# Projet n°7 : Formation développeur web OpenClassRooms 
+Création de l'application React "Kasa" : plateforme de petites annonces immobilères entre particuliers. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
