@@ -66,6 +66,7 @@
 
   .collapse_header {
     height: 29.93px;
+    min-height: 29.93px;
   }
   .collapse_arrow {
     height: 29.93px;
