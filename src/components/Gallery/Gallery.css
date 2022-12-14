@@ -3,7 +3,6 @@
   height: 25rem;
   object-fit: cover;
   border-radius: 25px;
-  /* mix-blend-mode: normal; */
 }
 /* message when no image exist */
 .gallery_displayNoImage {
@@ -17,7 +16,6 @@
   color: #ff6060;
   font-size: 18px;
   font-weight: 500;
-  font-family: montserrat;
   margin-bottom: 30px;
 }
 
@@ -27,7 +25,6 @@
 /* counter */
 .gallery_count {
   font-size: 18px;
-  font-family: montserrat;
   font-weight: 500;
   color: #ffffff;
   bottom: 19px;
