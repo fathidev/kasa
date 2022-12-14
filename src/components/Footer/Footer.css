@@ -20,7 +20,7 @@
   letter-spacing: 0em;
   text-align: center;
 }
-
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .footer_container {
     margin-top: 20px;

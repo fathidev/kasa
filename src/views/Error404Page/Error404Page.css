@@ -28,6 +28,7 @@
   margin-top: 20px;
 }
 
+/* MOBILE  */
 @media screen and (max-width: 768px) {
   .title_404 {
     font-size: 96px;
@@ -43,6 +44,7 @@
   }
 }
 
+/* TABLETTE */
 @media screen and (max-width: 992px) and (min-width: 769px) {
   .title_404 {
     font-size: 144px;

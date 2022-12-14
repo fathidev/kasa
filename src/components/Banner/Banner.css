@@ -46,7 +46,7 @@
   font-weight: 500;
   line-height: 68px;
 }
-
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .banner_text {
     font-size: 24px;
@@ -54,7 +54,6 @@
     justify-content: flex-start;
     line-height: 27px;
   }
-
   .homepage .banner {
     height: 111px;
   }
@@ -68,7 +67,6 @@
     justify-content: center;
     line-height: 27px;
   }
-
   .homepage .banner {
     height: 111px;
   }

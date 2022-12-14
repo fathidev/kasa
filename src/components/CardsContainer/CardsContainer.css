@@ -57,6 +57,7 @@ h2 {
   font-size: 18px;
 }
 
+/* MOBILE */
 @media (max-width: 768px) {
   .cards_container {
     background-color: white;
@@ -64,11 +65,9 @@ h2 {
     margin-top: 22px;
     gap: 20px;
   }
-
   img.card_vignette {
     height: 255px;
   }
-
   .card_title {
     top: 73.73%;
   }
@@ -82,6 +81,4 @@ h2 {
     margin-top: 22px;
     gap: 20px;
   }
-
-
 }

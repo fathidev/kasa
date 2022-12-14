@@ -17,6 +17,7 @@
   padding-left: 57px;
 }
 
+/* MOBILE  */
 @media (max-width: 768px) {
   .nav_link {
     text-transform: uppercase;

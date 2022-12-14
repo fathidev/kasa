@@ -7,14 +7,6 @@
   color: #ff6060;
   font-size: 30px;
 }
-@media screen and (max-width: 768px) {
-  .red {
-    font-size: 15px;
-  }
-  .grey {
-    font-size: 15px;
-  }
-}
 
 .product_page {
   margin-top: 5rem;
@@ -82,7 +74,7 @@
 ol {
   padding: 0;
 }
-
+/* MOBILE */
 @media (max-width: 768px) {
   .product_page {
     margin-top: 2rem;
@@ -129,6 +121,12 @@ ol {
     flex-direction: row-reverse;
     width: 100%;
     margin: 0;
+  }
+  .red {
+    font-size: 15px;
+  }
+  .grey {
+    font-size: 15px;
   }
 }
 

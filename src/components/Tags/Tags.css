@@ -17,6 +17,7 @@
   font-family: montserrat;
   text-align: center;
 }
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .tag {
     font-family: Montserrat;

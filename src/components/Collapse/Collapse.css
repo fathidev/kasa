@@ -3,7 +3,6 @@
   margin-top: 31px;
   text-align: left;
 }
-
 .collapse_header {
   align-items: center;
   background-color: #ff6060;
@@ -53,6 +52,7 @@
   padding: 43px 12px 10px 20px;
 }
 
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .collapse_description {
     padding: 23.02px 6.91px 10px 11.51px;

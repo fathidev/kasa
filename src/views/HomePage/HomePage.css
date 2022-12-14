@@ -14,10 +14,8 @@
   margin-right: 100px; */
   margin: 80px 100px;
 }
-/* .homepage-title {
-  color: white;
-} */
 
+/* MOBILE */
 @media screen and (max-width: 768px) {
   .homepage {
     margin: 16px 20px 0 20px;
@@ -29,5 +27,4 @@
   .homepage {
     margin: 16px 20px 0 20px;
   }
-
 }
