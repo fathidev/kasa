@@ -1,5 +1,4 @@
 .title_404 {
-  font-family: "Montserrat";
   font-weight: 700;
   font-size: 288px;
   margin-bottom: 50px;
@@ -7,7 +6,6 @@
   color: #ff6060;
 }
 .description_404 {
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 48px;
   line-height: 142.6%;
@@ -21,7 +19,6 @@
   align-items: center;
 }
 .link_404 {
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 18px;
   line-height: 142.6%;
