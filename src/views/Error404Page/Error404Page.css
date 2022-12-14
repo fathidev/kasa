@@ -45,3 +45,15 @@
     margin: 133px 78px 49px 76px;
   }
 }
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .title_404 {
+    font-size: 144px;
+  }
+  .description_404 {
+    font-size: 24px;
+  }
+  .link_404 {
+    font-size: 16px;
+  }
+}

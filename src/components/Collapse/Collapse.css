@@ -9,8 +9,8 @@
   background-color: #ff6060;
   border-radius: 5px;
   display: inline-flex;
-  height: 25%;
-  min-height: 50px;
+  height: 47px;
+  min-height: 47px;
   width: 100%;
 }
 
@@ -56,7 +56,6 @@
 @media screen and (max-width: 768px) {
   .collapse_description {
     padding: 23.02px 6.91px 10px 11.51px;
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 400;
     line-height: 17px;
@@ -80,6 +79,39 @@
   .collapse_arrow > img {
     margin-right: 0px;
     width: 8.96px;
+  }
+  .collapse {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .collapse_description {
+    padding: 23.02px 6.91px 10px 11.51px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .collapse_header {
+    height: 45px;
+    min-height: 45px;
+  }
+  .collapse_arrow {
+    height: 29.93px;
+  }
+  .collapse_title {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .collapse_arrow > img {
+    margin-right: 0px;
+    width: 15px;
   }
   .collapse {
     margin-top: 0px;

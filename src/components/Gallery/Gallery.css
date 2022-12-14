@@ -68,3 +68,20 @@
     border-radius: 10px;
   }
 }
+
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .gallery_arrowLeft img,
+  .gallery_arrowRight img {
+    width: 16px;
+  }
+
+  .gallery_count {
+    font-size: 18px;
+  }
+
+  .gallery_image > img {
+    height: 255px;
+    border-radius: 10px;
+  }
+}

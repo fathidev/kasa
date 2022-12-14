@@ -131,3 +131,60 @@ ol {
     margin: 0;
   }
 }
+
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .product_page {
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .product_title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .product_location {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+  }
+  .product_content {
+    flex-direction: column;
+  }
+  .product_tags {
+    margin-top: 1rem;
+  }
+  .product_equipments {
+    flex-direction: column;
+  }
+  .product_equipments > .collapse {
+    width: 100%;
+  }
+
+  .product_informations {
+    width: 100%;
+  }
+  .product_starshost {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 0;
+  }
+
+  .red {
+    font-size: 20px;
+  }
+  .grey {
+    font-size: 20px;
+  }
+}

@@ -21,8 +21,13 @@
 @media screen and (max-width: 768px) {
   .homepage {
     margin: 16px 20px 0 20px;
-    /* margin-top: 16px;
-    margin-left: 20px;
-    margin-right: 20px; */
   }
+}
+
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .homepage {
+    margin: 16px 20px 0 20px;
+  }
+
 }

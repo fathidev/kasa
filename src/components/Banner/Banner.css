@@ -60,6 +60,20 @@
   }
 }
 
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .banner_text {
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    line-height: 27px;
+  }
+
+  .homepage .banner {
+    height: 111px;
+  }
+}
+
 /* animation apparition banner */
 @keyframes fadeIn {
   0% {

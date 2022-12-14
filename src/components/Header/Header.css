@@ -36,6 +36,20 @@
     border-radius: 0px;
   }
 }
+/* TABLETTE */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .nav {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .nav_link {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
 /* lorsque la page est active surligne le lien correspondant dans le menu */
 .active {
   text-decoration: underline;
